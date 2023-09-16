@@ -50,9 +50,10 @@ DEFAULT_ALIGN_MODELS_HF = {
     "ko": "kresnik/wav2vec2-large-xlsr-korean",
     "ur": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
     "te": "anuragshas/wav2vec2-large-xlsr-53-telugu",
-    "hi": "theainerd/Wav2Vec2-large-xlsr-hindi"
+    "hi": "theainerd/Wav2Vec2-large-xlsr-hindi",
+    "ro": "infinitejoy/wav2vec2-large-xls-r-300m-romanian",
+    "sv": "KBLab/wav2vec2-large-voxrex-swedish"
 }
-
 
 def load_align_model(language_code, device, model_name=None, model_dir=None):
     if model_name is None:
