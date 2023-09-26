@@ -52,7 +52,8 @@ DEFAULT_ALIGN_MODELS_HF = {
     "te": "anuragshas/wav2vec2-large-xlsr-53-telugu",
     "hi": "theainerd/Wav2Vec2-large-xlsr-hindi",
     "ro": "infinitejoy/wav2vec2-large-xls-r-300m-romanian",
-    "sv": "KBLab/wav2vec2-large-voxrex-swedish"
+    "sv": "KBLab/wav2vec2-large-voxrex-swedish",
+    "id": "indonesian-nlp/wav2vec2-large-xlsr-indonesian"
 }
 
 def load_align_model(language_code, device, model_name=None, model_dir=None):
